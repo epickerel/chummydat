@@ -22,14 +22,17 @@ li {
   text-align: center;
   margin: 2em auto 0;
 }
-#app,
-#userlist {
+#app {
   margin: 10px auto;
   padding: 0;
   width: 100%;
   max-width: 90em;
   display: flex;
   flex-direction: row;
+}
+#userlist {
+  margin: 2em 0;
+  text-align: center;
 }
 #app > div {
   display: flex;

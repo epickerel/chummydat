@@ -1,0 +1,67 @@
+body {
+  background-color: #225;
+  color: #ddd;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  padding: 0;
+  margin: 0;
+}
+body a {
+  color: #ff0;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+#logout {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 2em auto 0;
+}
+#app,
+#userlist {
+  margin: 10px auto;
+  padding: 0;
+  width: 100%;
+  max-width: 90em;
+  display: flex;
+  flex-direction: row;
+}
+#app > div {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+#roomlist {
+  min-width: 10em;
+  max-width: 20em;
+  padding: 1em;
+}
+#roomlist .active {
+  font-weight: bold;
+}
+#chatArea {
+  padding: 0 1em;
+  width: 100%;
+  border: 2px solid #fff;
+  border-top-color: #000;
+  border-bottom-color: #fff;
+  border-right-color: #999;
+  border-left-color: #333;
+}
+#chatForm {
+  margin-bottom: 1em;
+}
+#chat > ul > li.message {
+  margin: 1em 0;
+}
+#chat > ul > li.message > .message-author {
+  font-weight: bold;
+}
+#chat > ul > li.message > .message-text {
+  margin-left: 2em;
+}
